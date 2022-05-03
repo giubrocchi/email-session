@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Email</title>
+  <link href="./static/style.css" rel="stylesheet" type="text/css" />
+  <script src="./static/script.js"></script>
+</head>
+
+<body>
+  <button class="btn-sec" id="sair" onclick="sair()">Sair</button><br>
+  <div id="box-email">
+    <div id="head">
+      <h1>Nova mensagem</h1>
+    </div>
+    <input id="nome" placeholder="Título"><br>
+    <input id="dest" placeholder="Destinatário"><br>
+    <textarea id="msg" placeholder="Mensagem"></textarea>
+  </div><br>
+  <button class="btn-prin" id="enviar" onclick="enviarEmail()">Enviar</button>
+</body>
+
+</html>
